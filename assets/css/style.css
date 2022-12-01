@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+#main{
+    width: 100%;
+    height: auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100wh;
+    height: auto;
+    padding: 40px 10% 0 10%;
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-list{
+    display: flex;
+}
+
+.navbar-items{
+    list-style: none;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.navbar-list a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1rem;
+    margin: 0 33px;
+    color: #000000;
+    transition: 0.4s ease;
+
+} 
+
+.navbar-list a:hover{
+    color: #F66B1D;
+}
+.logo{
+    font-size: 2rem;
+}
+
+span{
+    color: #F66B1D;
+}
+
+.badge{
+    background-color: #F66B1D;
+}
+
+/* CROUSEL STYLING */
+
+.carousel-item{
+    padding: 1.5rem 10% 0 10%  ;
+}
+
+.crousel-button {
+    
+    width: 9rem;
+    height: 3.5rem;
+    word-spacing: 1.1px;
+    background-color: #F66B1D;
+    color: #f6f6f6;
+    border: none;
+    margin: 2.2rem 0;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    letter-spacing: 1.1px;
+
+}
+
+.crousel-button:hover{
+    background-color: #ffff;
+    color: #F66B1D;
+    border:2px solid;
+    border-color: #F66B1D
+}
+
+.crousel-button  a {
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+.crousel-button  a:hover{
+    color:#F66B1D;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
+
+.description{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding:2% 0px;
+}
+    
+/* MANUAL SECTION */
+
+.manual-png{
+    margin: 0 auto;
+    width: 380px;
+    height: auto;
+}
+
+.crousel-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 300%;
+    margin-bottom: 2rem;
+}
+
+/* RESOUCES SECTION  */
+
+.crousel-desc{
+    margin-top: 12px;
+    padding-top: 12px;
+}
+
+
+/* Hideen class */
+
+.hide{
+    display: none;
+}
+
+.row{
+    height:100%;
+}
+
+
+/*============================================
+
+MOBILE SECTION
+
+=============================================*/
+
+
+.mobile-icon{
+    font-size: 220%;   
+    cursor: pointer; 
+}
+
+.mobile-icon:hover{
+    color: #F66B1D;
+}
+
+.mobile-navbar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    width:100%;
+    height: 100vh;
+    background-color:#F66B1D;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.mobile-navbar-list {
+    font-size: 200%;  
+    padding-left: 0px;
+    margin-bottom: 109px;
+}
+
+.mobile-navbar-item {
+    justify-content: space-between;
+    margin: 39% 0;
+
+}
+
+.mobile-navbar-item a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: #ffffff;
+    transition: 0.4s ease;
+}
+
+.mobile-navbar-item a:hover{
+    color: #000000;
+}
+
+/* 
+========================================================================================================
+
+                                            MANUAL PAGE STYLING
+
+======================================================================================================= */
+
+.manual-title{
+    font-size: 200%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.content{
+    background-color:#f6f6f6;
+    margin: 5% 10% 5%  10%;
+    padding: 8% 12%;
+    height: 70vh;
+    border-radius: none;
+    box-shadow:0 0.3rem 0.5rem rgba(0,0,0,0.2);
+
+} 
+
+.drop-down-bottons{
+    display: flex;
+    margin: 3rem auto;
+}
+
+.dropdown-content{
+    color:#fff;
+    background-color: #F66B1D;
+    font-family:'Josefin Sans', sans-serif; 
+}
+
+.btn{
+    background-color: #F66B1D;
+    border: none;
+    border-radius: none;
+    color:#000;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 100%;
+    padding: 21px;
+    margin-right: 120px;
+}
+
+
+.btn:hover{
+    color: #f6f6f6;
+}
+
+.manual-icon{
+    /* background-color: #F66B1D; */
+    font-size: 2.5rem;
+    color: #F66B1D;
+    margin: 6px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.drop-down{
+    border: 2px solid #F66B1D;
+    background-color: #f6f6f6;
+
+    height: 2.8rem;
+    margin-right: 1.5rem;
+    font-size: 120%;
+    padding: 0 12px;
+    border-radius: 5px;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.drop-down-option{
+    padding: 12px;
+    font-size: 100%; 
+    background-color: #F66B1D;
+    color: #f6f6f6;
+}
+option{
+    font-size: 90%
+}
+
+.links{
+    text-decoration: none;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 80%;
+}
+.links:hover{
+    color: rgb(97, 97, 249);
+}
+.link-icon{
+    font-size: 1.6rem;
+    color: rgb(67, 67, 243);
+    cursor: pointer;
+    margin-left: 3%;
+}
+
+/* 
+========================================================================================================
+
+                                            PROJECT PAGE STYLING
+
+======================================================================================================= */
+
+.project-cards{
+    background-color:#f6f6f6;
+    color: #000;
+    margin: 5% 10% 5%  10%;
+    padding:5% 1%;
+    height: auto;
+    border-radius: none;
+    box-shadow:0 0.3rem 0.5rem rgba(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.project-title{
+    font-size: 230%;
+    text-align: center;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.card-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% auto;
+    padding: 5% ;
+}
+.card-item h3{
+    font-size: 100%;
+    margin: 13px 0;
+}
+
+.card-item p{
+    font-size: 80%;
+}
+.card-item{
+    /* width:25%; */
+    height:auto;
+    font-size: 110%;
+    padding: 5% 2% 1%;
+    border-radius: 12px;
+    transition: 0.5s ease-in-out;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card-item:hover{
+    background-color: white;
+    box-shadow:0 0.3rem 0.5rem rgba(0,0,0,0.2);
+    
+}
+
+#manual-base .carousel-item{
+    margin: 5%;
+    background-color:#f6f6f6;
+    box-shadow:0 0.3rem 0.5rem rgba(0,0,0,0.2);
+
+}
+
+.project-button{  
+    width: 75%;
+    height: 13%;
+    word-spacing: 1.1px;
+    background-color: #F66B1D;
+    color: #f6f6f6;
+    border: none;
+    margin: 2.2rem 0;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    letter-spacing: 1.1px;
+}
+
+.project-button:hover{
+    background-color: #ffff;
+    color: #F66B1D;
+    border:2px solid;
+    border-color: #F66B1D
+}
+
+.project-button a {
+    text-decoration: none;
+    color: #f6f6f6;
+}
+
+.project-button a:hover{
+    color: #F66B1D;
+}

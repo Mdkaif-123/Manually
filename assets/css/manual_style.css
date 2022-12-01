@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:#b6d2f3; */
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100wh;
+    height: auto;
+    padding: 40px 10% 0 10%;
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar-list{
+    display: flex;
+}
+
+.navbar-items{
+    list-style: none;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.navbar-list a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4rem;
+    margin: 0 33px;
+    color: #000000;
+    transition: 0.4s ease;
+
+} 
+
+.navbar-list a:hover{
+    color: #F66B1D;
+}
+.logo{
+    font-size: 2.5rem;
+}
+
+span{
+    color: #F66B1D;
+}
+
+/* 
+=====================================
+
+Main div styling
+
+==================================== */
+
+
+.main-div{
+    background-color: #e69393;
+    margin: 8% 10% 0 10%;
+    padding: 8%;
+}
