@@ -6816,11 +6816,11 @@ fieldset:disabled .btn {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("https://raw.githubusercontent.com/Mdkaif-123/Manually/master/assets/images/right_arrow.png");
+    background-image: url("https://raw.githubusercontent.com/Mdkaif-123/Manually/master/assets/images/left_arrow.png");
 }
 
 .carousel-control-next-icon {
-    background-image: url("https://raw.githubusercontent.com/Mdkaif-123/Manually/master/assets/images/left_arrow.png");
+    background-image: url("https://raw.githubusercontent.com/Mdkaif-123/Manually/master/assets/images/right_arrow.png");
 }
 
 .carousel-indicators {
